@@ -1,0 +1,36 @@
+body{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #19e0ee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    margin: 10px 0px;
+}
+
+input{
+    padding: 0.5rem;
+    max-width: 200px;
+    margin: auto ;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+#calculate-btn{
+    margin-top: 20px;
+    font-size: 0.8em;
+    background-color: #0f9c0f;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
